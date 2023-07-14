@@ -1,0 +1,82 @@
+{
+  "scale": {
+    "radius": 0.00001,
+    "rotatoinSpeed": 0.1,
+    "orbitalPeriod": 1,
+    "distanceFromSun": 0.001
+  },
+  "sun": {
+    "name": "sun",
+    "radius": 696340,
+    "rotationSpeed": 0,
+    "orbitalPeriod": 0,
+    "distanceFromSun": 0
+  },
+  "earth": {
+    "name": "earth",
+    "radius": 6371,
+    "rotationSpeed": 460,
+    "orbitalPeriod": 1,
+    "distanceFromSun": 148.97
+  },
+  "saturn": {
+    "name": "saturn",
+    "radius": 58323,
+    "rotationSpeed": 460,
+    "orbitalPeriod": 29,
+    "distanceFromSun": 1466.6
+  },
+  "jupiter": {
+    "name": "jupiter",
+    "radius": 69911,
+    "rotationSpeed": 460,
+    "orbitalPeriod": 12,
+    "distanceFromSun": 778.5
+  },
+  "mars": {
+    "name": "mars",
+    "radius": 3389.5,
+    "rotationSpeed": 460,
+    "orbitalPeriod": 2,
+    "distanceFromSun": 249.96
+  },
+  "mercury": {
+    "name": "mercury",
+    "radius": 2439.7,
+    "rotationSpeed": 460,
+    "orbitalPeriod": 0.24,
+    "distanceFromSun": 51.267
+  },
+  "venus": {
+    "name": "venus",
+    "radius": 6051.8,
+    "rotationSpeed": 460,
+    "orbitalPeriod": 0.62,
+    "distanceFromSun": 107.7
+  },
+  "uranus": {
+    "name": "uranus",
+    "radius": 25362,
+    "rotationSpeed": 460,
+    "orbitalPeriod": 84,
+    "distanceFromSun": 2939.8
+  },
+  "neptune": {
+    "name": "neptune",
+    "radius": 24622,
+    "rotationSpeed": 460,
+    "orbitalPeriod": 165,
+    "distanceFromSun": 4473.4
+  },
+  "all": [
+    "sun",
+    "earth",
+    "saturn",
+    "jupiter",
+    "mars",
+    "mercury",
+    "venus",
+    "uranus",
+    "neptune"
+  ]
+}

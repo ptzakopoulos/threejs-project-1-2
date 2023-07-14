@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+#canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+h1 {
+  font-size: 50px;
+  color: white;
+}
+p {
+  font-size: 30px;
+  color: white;
+}
+a {
+  width: 100px;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  border: 4px solid rgb(73, 36, 255);
+  border-radius: 20px;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#z {
+  width: 300px;
+}
+.active {
+  background: blue;
+}
